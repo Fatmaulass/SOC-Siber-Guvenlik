@@ -1,4 +1,5 @@
 🛡️Makine Öğrenmesi ile Ağ Trafiği Analizi
+
 Bu sistem, modern ağ güvenliği ihtiyaçlarını karşılamak üzere, klasik "imza tabanlı" (sadece bilinen virüsleri tanıyan) sistemlerin ötesine geçer. Veri odaklı bir yaklaşım kullanarak ağ trafiğindeki anormal davranışları (anomali) yakalar.
 
 1) Veri Seti ve Ön İşleme (Data Engineering)
@@ -35,13 +36,11 @@ Depoyu klonlayın ve gerekli kütüphaneleri yükleyin:
 * pip install -r requirements.txt
 
 2. Modellerin Eğitilmesi
-Modeller (.pkl dosyaları) repo boyutunu optimize etmek için dahil edilmemiştir. Uygulamayı çalıştırmadan önce modelleri oluşturmak için eğitim scriptlerini şu sırayla çalıştırın:
+Modeller (.pkl dosyaları) repo boyutunu optimize etmek için dahil edilmemiştir. Uygulamayı çalıştırmadan önce modelleri oluşturmak için eğitim scriptlerini şu sırayla çalıştırın. Bu işlem sonucunda gerekli .pkl dosyaları otomatik olarak oluşturulacaktır.
 * Binary Sınıflandırma Modeli (Normal/Saldırı):   
 python model_egitme_gridsearch.py
 * Multiclass Sınıflandırma Modeli (Saldırı Türleri):   
 python model_egitme_tur_gridsearchcv.py
-
-Bu işlem sonucunda gerekli .pkl dosyaları otomatik olarak oluşturulacaktır.
 
 3. Arayüzü Başlatma
 Modeller oluştuktan sonra SOC Dashboard'u şu komutla başlatabilirsiniz:
