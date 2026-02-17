@@ -1,0 +1,13 @@
+# Veri Setleri (Çok büyük oldukları için engelliyoruz)
+NUSW-NB15/
+*.csv
+*.xlsx
+
+# Model Dosyaları (Eğitim scriptlerin olduğu için kullanıcı kendi eğitebilir)
+*.pkl
+
+# Python Gereksizleri
+__pycache__/
+*.py[cod]
+.env
+venv/
