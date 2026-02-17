@@ -40,6 +40,7 @@ Modeller (.pkl dosyaları) repo boyutunu optimize etmek için dahil edilmemişti
 python model_egitme_gridsearch.py
 * Multiclass Sınıflandırma Modeli (Saldırı Türleri):   
 python model_egitme_tur_gridsearchcv.py
+
 Bu işlem sonucunda gerekli .pkl dosyaları otomatik olarak oluşturulacaktır.
 
 3. Arayüzü Başlatma
