@@ -1,4 +1,4 @@
-🛡️Makine Öğrenmesi ile Ağ Trafiği Analizi
+#🛡️Makine Öğrenmesi ile Ağ Trafiği Analizi
 
 Bu sistem, modern ağ güvenliği ihtiyaçlarını karşılamak üzere, klasik "imza tabanlı" (sadece bilinen virüsleri tanıyan) sistemlerin ötesine geçer. Veri odaklı bir yaklaşım kullanarak ağ trafiğindeki anormal davranışları (anomali) yakalar.
 
